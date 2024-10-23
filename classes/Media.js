@@ -1,7 +1,6 @@
 class Media {
   static totalMediaCount = 0;
   constructor(title, year, genre) {
-    this.mediaCount = Media.totalMediaCount;
     Media.totalMediaCount++;
 
     this.title = title;

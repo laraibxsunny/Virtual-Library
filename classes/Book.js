@@ -18,8 +18,9 @@ class Book extends Media {
         tempBestBook = arrOfBooks[i];
       }
     }
-    return tempBestBook.title;
+    return tempBestBook;
   }
+
 }
 
 // don't change below
